@@ -34,6 +34,19 @@
   border-radius: var(--border-radius);
 }
 
+/* style pour bouton cta */
+.bouton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: lightblue;
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
